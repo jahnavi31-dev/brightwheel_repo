@@ -1,0 +1,25 @@
+# Environment variables - never commit these
+.env
+.env.local
+.env.production
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Output files
+output/
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
